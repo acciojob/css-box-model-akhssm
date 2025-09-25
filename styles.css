@@ -1,19 +1,11 @@
 
 /* Your CSS Code here. */
 
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 0;
-    background-color: #f0f0f0;
-}
-
-.box-model-demo {
-    width: 300px;
-    background-color: lightblue;
-    border: 15px solid blue;
-    padding: 50px;
-    margin: 20px;
-}
+.box {
+      width: 300px;                    
+      background-color: lightblue;     
+      border: 15px solid blue;        
+      padding: 50px;                   
+      margin: 20px;                    
+      box-sizing: content-box;         
+    }
